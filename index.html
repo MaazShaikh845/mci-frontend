@@ -2,12 +2,26 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>mci-frontend</title>
+
+    <title>MCI Frontend</title>
+
+    <!-- ✅ Use relative path for favicon -->
+    <link rel="icon" type="image/svg+xml" href="./vite.svg" />
+
+    <!-- Optional: SEO + social preview -->
+    <meta name="description" content="🧠 MCI Prediction Test - Cognitive Screening Tool" />
+    <meta property="og:title" content="MCI Frontend" />
+    <meta property="og:description" content="Cognitive Screening Tool for MCI risk detection" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://maazshaikh845.github.io/mci-frontend/" />
   </head>
-  <body>
+
+  <body class="bg-[#0f172a] text-slate-100">
+    <!-- React root element -->
     <div id="root"></div>
-    <script type="module" src="/src/main.jsx"></script>
+
+    <!-- ✅ Use relative path for JS entry -->
+    <script type="module" src="./src/main.jsx"></script>
   </body>
 </html>
